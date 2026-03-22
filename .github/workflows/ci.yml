@@ -27,7 +27,7 @@ jobs:
     - name: Build site
       run: |
         cd ./Maverick
-        python ./build.py -c "../conf.py"
+        python mvrk.py --config ../conf.py --source_dir ../src/ --build_dir ../dist/
 
     - name: Deploy to GitHub Pages
       run: |
