@@ -11,7 +11,7 @@ archives_page_size = 20
 template = 'Galileo'
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "jamesdd/Blog-With-GitHub-Boilerplate@gh-pages"
+    "repo": "jamesdd/jamesdd.github.io@gh-pages"
 }
 
 # 站点设置
